@@ -316,10 +316,11 @@ namespace Cantina
             // mskCEP
             // 
             this.mskCEP.Location = new System.Drawing.Point(44, 226);
-            this.mskCEP.Mask = "00000-00";
+            this.mskCEP.Mask = "00000-000";
             this.mskCEP.Name = "mskCEP";
             this.mskCEP.Size = new System.Drawing.Size(82, 26);
             this.mskCEP.TabIndex = 7;
+            this.mskCEP.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mskCEP_KeyDown);
             // 
             // lblCEP
             // 

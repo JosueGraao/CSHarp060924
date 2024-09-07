@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using MosaicoSolutions.ViaCep;
 
 namespace Cantina
 {
@@ -121,22 +122,51 @@ namespace Cantina
                 || txtNumero.Text.Equals("") 
                 || txtBairro.Text.Equals("") 
                 || txtCidade.Text.Equals("") 
-                || txtEstado.Text.Equals(""))
+                || cbbEstado.Text.Equals(""))
             {
-                MessageBox.Show("Favor inserir valores."),
-                    "Sistema", MessageBoxButtons.OK,
-                    MessageBoxIcon.Information,
+                MessageBox.Show("Favor inserir valores.", "Sistema",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error,
                     MessageBoxDefaultButton.Button1);                    
             }
             else
             {
-                MessageBox.Show("Cadastrado com sucesso!.","Sistema"),
-                    "Sistema", MessageBoxButtons.OK,
+                MessageBox.Show("Cadastrado com sucesso!.","Sistema",
+                    MessageBoxButtons.OK,
                     MessageBoxIcon.Information,
                     MessageBoxDefaultButton.Button1);
                     desabilitarCampos();
+                limparCampos();
             }
 
         }
+
+        //criando o método busca cep
+        public void buscaCEP(string cep)
+        {
+            var viaCepService = ViaCepService.Default();
+
+            var endereco = viaCepService.ObterEndereco(cep);
+
+            txtEndereco.Text = endereco.Logradouro;
+            txtBairro.Text = endereco.Bairro;
+            txtCidade.Text = endereco.Localidade;
+            cbbEstado.Text = endereco.UF;
+
+        }
+   
+        private void mskCEP_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                //busca o cep
+                buscaCEP(mskCEP.Text);
+                txtNumero.Focus();
+            }
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            limparCampos();
+        }
     }
-}

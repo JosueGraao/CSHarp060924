@@ -46,3 +46,11 @@ C:\Users\Laboratorio-Info\Source\Repos\CSHarp060924\CantinaCSharp\Cantina\obj\De
 C:\Users\Laboratorio-Info\Source\Repos\CSHarp060924\CantinaCSharp\Cantina\obj\Debug\Cantina.csproj.CoreCompileInputs.cache
 C:\Users\Laboratorio-Info\Source\Repos\CSHarp060924\CantinaCSharp\Cantina\obj\Debug\Cantina.exe
 C:\Users\Laboratorio-Info\Source\Repos\CSHarp060924\CantinaCSharp\Cantina\obj\Debug\Cantina.pdb
+C:\Users\Laboratorio-Info\Source\Repos\CSHarp060924\CantinaCSharp\Cantina\bin\Debug\Cantina.exe.config
+C:\Users\Laboratorio-Info\Source\Repos\CSHarp060924\CantinaCSharp\Cantina\bin\Debug\Cantina.exe
+C:\Users\Laboratorio-Info\Source\Repos\CSHarp060924\CantinaCSharp\Cantina\bin\Debug\Cantina.pdb
+C:\Users\Laboratorio-Info\Source\Repos\CSHarp060924\CantinaCSharp\Cantina\bin\Debug\MosaicoSolutions.ViaCep.dll
+C:\Users\Laboratorio-Info\Source\Repos\CSHarp060924\CantinaCSharp\Cantina\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Laboratorio-Info\Source\Repos\CSHarp060924\CantinaCSharp\Cantina\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Laboratorio-Info\Source\Repos\CSHarp060924\CantinaCSharp\Cantina\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Laboratorio-Info\Source\Repos\CSHarp060924\CantinaCSharp\Cantina\obj\Debug\Cantina.csproj.CopyComplete
