@@ -82,21 +82,22 @@ namespace Cantina
         //criando método limpar campos
         public void limparCampos()
         {
-            txtCodigo..Clear();;
-            txtNome..Clear();;
-            txtEndereco..Clear();;
-            txtNumero..Clear();;
-            txtBairro..Clear();;
-            txtCidade..Clear();;
-            txtEmail..Clear();;
-            mskCEP..Clear();;
-            mskCPF..Clear();;
-            mskTelefone..Clear();;
-            cbbEstado..Clear();;
-            btnCadastrar..Clear();;
-            btnExcluir..Clear();;
-            btnAlterar..Clear();;
-            btnLimpar..Clear();;
+            txtCodigo.Clear();
+            txtNome.Clear();
+            txtEndereco.Clear();
+            txtNumero.Clear();
+            txtBairro.Clear();
+            txtCidade.Clear();
+            txtEmail.Clear();
+            mskCEP.Clear();
+            mskCPF.Clear();
+            mskTelefone.Clear();            
+            cbbEstado.Text = "";
+            btnCadastrar.Enabled = false;
+            btnExcluir.Enabled = false;
+            btnAlterar.Enabled = false;
+            btnLimpar.Enabled = false;
+            btnNovo.Enabled = true;
         }
         private void btnVoltar_Click(object sender, EventArgs e)
         {
