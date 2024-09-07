@@ -78,6 +78,26 @@ namespace Cantina
             btnCadastrar.Enabled = true;
             btnLimpar.Enabled = true;
         }
+
+        //criando método limpar campos
+        public void limparCampos()
+        {
+            txtCodigo..Clear();;
+            txtNome..Clear();;
+            txtEndereco..Clear();;
+            txtNumero..Clear();;
+            txtBairro..Clear();;
+            txtCidade..Clear();;
+            txtEmail..Clear();;
+            mskCEP..Clear();;
+            mskCPF..Clear();;
+            mskTelefone..Clear();;
+            cbbEstado..Clear();;
+            btnCadastrar..Clear();;
+            btnExcluir..Clear();;
+            btnAlterar..Clear();;
+            btnLimpar..Clear();;
+        }
         private void btnVoltar_Click(object sender, EventArgs e)
         {
             frmMenuPrincipal abrir = new frmMenuPrincipal();
@@ -90,6 +110,32 @@ namespace Cantina
             habilitarCampos();
             btnNovo.Enabled = false;
             txtNome.Focus();
+        }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            //verificando se os cmapos estão preenchidos
+            if (txtNome.Text.Equals("") || txtEmail.Text.Equals("") || mskCPF.Text.Equals("   .   .   -") || mskTelefone.Text.Equals("     -") || mskCEP.Text.Equals("     -") 
+                || txtEndereco.Text.Equals("")
+                || txtNumero.Text.Equals("") 
+                || txtBairro.Text.Equals("") 
+                || txtCidade.Text.Equals("") 
+                || txtEstado.Text.Equals(""))
+            {
+                MessageBox.Show("Favor inserir valores."),
+                    "Sistema", MessageBoxButtons.OK,
+                    MessageBoxIcon.Information,
+                    MessageBoxDefaultButton.Button1);                    
+            }
+            else
+            {
+                MessageBox.Show("Cadastrado com sucesso!.","Sistema"),
+                    "Sistema", MessageBoxButtons.OK,
+                    MessageBoxIcon.Information,
+                    MessageBoxDefaultButton.Button1);
+                    desabilitarCampos();
+            }
+
         }
     }
 }

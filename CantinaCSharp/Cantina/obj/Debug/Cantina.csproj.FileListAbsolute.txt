@@ -36,3 +36,13 @@ C:\Users\Laboratorio-Info\Source\Repos\CantinaCSharp\Cantina\obj\Debug\Cantina.c
 C:\Users\Laboratorio-Info\Source\Repos\CantinaCSharp\Cantina\obj\Debug\Cantina.csproj.CoreCompileInputs.cache
 C:\Users\Laboratorio-Info\Source\Repos\CantinaCSharp\Cantina\obj\Debug\Cantina.exe
 C:\Users\Laboratorio-Info\Source\Repos\CantinaCSharp\Cantina\obj\Debug\Cantina.pdb
+C:\Users\Laboratorio-Info\Source\Repos\CSHarp060924\CantinaCSharp\Cantina\obj\Debug\Cantina.csproj.AssemblyReference.cache
+C:\Users\Laboratorio-Info\Source\Repos\CSHarp060924\CantinaCSharp\Cantina\obj\Debug\Cantina.frmFuncionarios.resources
+C:\Users\Laboratorio-Info\Source\Repos\CSHarp060924\CantinaCSharp\Cantina\obj\Debug\Cantina.frmLogin.resources
+C:\Users\Laboratorio-Info\Source\Repos\CSHarp060924\CantinaCSharp\Cantina\obj\Debug\Cantina.frmMenuPrincipal.resources
+C:\Users\Laboratorio-Info\Source\Repos\CSHarp060924\CantinaCSharp\Cantina\obj\Debug\Cantina.frmSplash.resources
+C:\Users\Laboratorio-Info\Source\Repos\CSHarp060924\CantinaCSharp\Cantina\obj\Debug\Cantina.Properties.Resources.resources
+C:\Users\Laboratorio-Info\Source\Repos\CSHarp060924\CantinaCSharp\Cantina\obj\Debug\Cantina.csproj.GenerateResource.cache
+C:\Users\Laboratorio-Info\Source\Repos\CSHarp060924\CantinaCSharp\Cantina\obj\Debug\Cantina.csproj.CoreCompileInputs.cache
+C:\Users\Laboratorio-Info\Source\Repos\CSHarp060924\CantinaCSharp\Cantina\obj\Debug\Cantina.exe
+C:\Users\Laboratorio-Info\Source\Repos\CSHarp060924\CantinaCSharp\Cantina\obj\Debug\Cantina.pdb
